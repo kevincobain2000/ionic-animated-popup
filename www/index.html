@@ -25,7 +25,10 @@
       </div>
     </ion-header-bar>
     <ion-content>
-
+          <ion-item ng-repeat="animation in popupAnimations" ng-click="showConfirm(animation)" class="item-icon-right">
+           {{$index+1}}. {{animation}}
+          <i class="icon ion-chevron-right icon-accessory"></i>
+      </ion-item>
     </ion-content>
   </body>
 </html>
