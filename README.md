@@ -1,3 +1,14 @@
+#### I tweeted
+
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">32 Popup animations with <a href="https://twitter.com/Ionicframework">@Ionicframework</a>. Hooked many in just 5 mins. <a href="https://t.co/To10HoJWcM">https://t.co/To10HoJWcM</a> <a href="http://t.co/094r1V4G9s">pic.twitter.com/094r1V4G9s</a></p>&mdash; Kevin Cobain (@kevincobain2000) <a href="https://twitter.com/kevincobain2000/status/655345452724826112">October 17, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+https://twitter.com/kevincobain2000/status/655345452724826112
+
+#### Idea from
+
+https://github.com/kevincobain2000/ionic-animated-modal
+
 ### Personal favorite ``bounceIn``
 
 I use that in my app. http://friendsapp.parseapp.com/
@@ -99,7 +110,3 @@ zoomInRight
 zoomInUp
 rollIn
 ```
-
-#### Also See
-
-https://github.com/kevincobain2000/ionic-animated-modal
