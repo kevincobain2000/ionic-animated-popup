@@ -110,3 +110,15 @@ zoomInRight
 zoomInUp
 rollIn
 ```
+
+
+### Extra (Styling popup like sweetalert)
+
+![alt tag](sweetalert.png)
+
+```
+<link href="https://rawgit.com/kevincobain2000/ionic-animated-popup/master/www/css/style.css" rel="stylesheet">
+
+```
+
+Stylesheet is here https://github.com/kevincobain2000/ionic-animated-popup/blob/master/www/css/style.css
