@@ -1,10 +1,3 @@
-#### I tweeted
-
-<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">32 Popup animations with <a href="https://twitter.com/Ionicframework">@Ionicframework</a>. Hooked many in just 5 mins. <a href="https://t.co/To10HoJWcM">https://t.co/To10HoJWcM</a> <a href="http://t.co/094r1V4G9s">pic.twitter.com/094r1V4G9s</a></p>&mdash; Kevin Cobain (@kevincobain2000) <a href="https://twitter.com/kevincobain2000/status/655345452724826112">October 17, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-https://twitter.com/kevincobain2000/status/655345452724826112
-
 #### Idea from
 
 https://github.com/kevincobain2000/ionic-animated-modal
@@ -19,7 +12,26 @@ I use that in my app. http://friendsapp.parseapp.com/
 
 http://codepen.io/kevincobain2000/pen/RWjoNR
 
-## How TO
+#### Implementation - 1
+
+### Add Animate css
+
+https://daneden.github.io/animate.css/
+
+and just add cssClass
+
+```
+var myPopup = $ionicPopup.show({
+     template: '<input type="password" ng-model="data.wifi">',
+     title: 'Enter Wi-Fi Password',
+     subTitle: 'Please use normal things',
+     scope: $scope,
+     cssClass: 'animated bounceInDown'
+     ... 
+});
+```
+
+#### Implementation - 2
 
 ### Add Animate css
 
@@ -29,9 +41,7 @@ https://daneden.github.io/animate.css/
 <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css" rel="stylesheet">
 ```
 
-
 ### How To
-
 
 #### HTML
 
